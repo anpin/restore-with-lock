@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net8.0": {
+      "Argu": {
+        "type": "Direct",
+        "requested": "[6.2.4, )",
+        "resolved": "6.2.4",
+        "contentHash": "RuANu8+L1P2HWozmbRXkj6MQGYwP5DL2wdARfBPtRjsLS8TSgwYjOKxMnY5LtjmHLlMBD3u2+MfbAy8xMGg8Qg==",
+        "dependencies": {
+          "FSharp.Core": "6.0.7",
+          "System.Configuration.ConfigurationManager": "4.4.0"
+        }
+      },
+      "FSharp.Core": {
+        "type": "Direct",
+        "requested": "[8.0.400, )",
+        "resolved": "8.0.400",
+        "contentHash": "kHMdDDmlZl98tujgHCmL8/HNH9VKbxsRMC9s7wbwr4noR40SSa5D4d00yF8cMK52s8jabVuiLLcrUw9r+PkKDQ=="
+      },
+      "MessagePack.Annotations": {
+        "type": "Direct",
+        "requested": "[2.5.172, )",
+        "resolved": "2.5.172",
+        "contentHash": "LJWMr5BDpvLaIfsUXufFWQW3VRFg7EKnGAHjArbwCaSeTIWEXaRoClkQtPaXvtVPZk5ZIpc9SBQd/WJD/m99Ww=="
+      },
+      "System.Configuration.ConfigurationManager": {
+        "type": "Transitive",
+        "resolved": "4.4.0",
+        "contentHash": "gWwQv/Ug1qWJmHCmN17nAbxJYmQBM/E94QxKLksvUiiKB1Ld3Sc/eK1lgmbSjDFxkQhVuayI/cGFZhpBSodLrg==",
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.4.0"
+        }
+      },
+      "System.Security.Cryptography.ProtectedData": {
+        "type": "Transitive",
+        "resolved": "4.4.0",
+        "contentHash": "cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog=="
+      }
+    },
+    "net8.0/linux-x64": {
+      "System.Security.Cryptography.ProtectedData": {
+        "type": "Transitive",
+        "resolved": "4.4.0",
+        "contentHash": "cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog=="
+      }
+    }
+  }
+}
